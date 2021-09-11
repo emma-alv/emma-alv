@@ -2,6 +2,7 @@
 ::before,
 ::after {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
@@ -12,32 +13,66 @@ body {
 
 nav {
   width: 100%;
-  border-bottom: 1px solid #fff;
+  /* border-bottom: 1px solid #fff; */
   display: flex;
   flex-wrap: wrap;
 }
 
 .logo {
   flex-basis: 40%;
-  padding: 0 20px;
+  padding: 0 80px;
   margin: auto;
 }
 
 .menu {
   flex-basis: 60%;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
 }
 
 ul {
   display: flex;
   list-style: none;
+  margin: 30px auto;
 }
 
 li {
-  padding: 0 30px;
   margin: 0;
 }
 
 a {
   text-decoration: none;
   color: #fff;
+  padding: 10px 30px;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #12100f;
+}
+
+.container {
+  height: 500px;
+  /* border-bottom: 1px solid #fff; */
+  margin: 0;
+  width: 100%;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url(./home-background-image.jpg);
+  background-size: cover;
+  padding: 50px;
+}
+.container h1,
+.container p {
+  margin: 10px;
+  font-size: 2rem;
+}
+
+.name {
+  padding-top: 250px;
+  margin: 0;
 }
