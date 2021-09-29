@@ -11,11 +11,27 @@ body {
   color: #fff;
 }
 
+.container {
+  width: 100%;
+  /* height: 50vh; */
+}
+
 nav {
   width: 100%;
+  max-width: 1200px;
   /* border-bottom: 1px solid #fff; */
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: #12100f;
 }
 
 .logo {
@@ -31,13 +47,15 @@ nav {
   height: 100px;
 }
 
-ul {
+.navbar .menu ul,
+.home-container .socials ul {
   display: flex;
   list-style: none;
   margin: 30px auto;
 }
 
-li {
+.navbar .menu ul li,
+.home-container .socials ul li {
   margin: 0;
 }
 
@@ -45,34 +63,97 @@ a {
   text-decoration: none;
   color: #fff;
   padding: 10px 30px;
+  border-radius: 5px;
 }
 
 a:hover {
   background-color: #fff;
   color: #12100f;
+  transition: all 0.5s ease-out;
 }
 
-.container {
+.content {
   height: 500px;
-  /* border-bottom: 1px solid #fff; */
   margin: 0;
   width: 100%;
+  max-width: 1200px;
+  padding: 50px;
+  margin: auto auto;
+}
+
+.home-container {
+  display: flex;
   background-image: linear-gradient(
       180deg,
       rgba(0, 0, 0, 0.4) 0%,
       rgba(0, 0, 0, 1) 100%
     ),
-    url(./home-background-image.jpg);
+    url(./img/home-background-image-v2.jpg);
   background-size: cover;
-  padding: 50px;
 }
-.container h1,
-.container p {
+
+.personal-header {
+  flex-basis: 60%;
+}
+
+.photo {
+  flex-basis: 40%;
+}
+
+.home-container h1,
+.home-container p {
   margin: 10px;
   font-size: 2rem;
 }
 
 .name {
-  padding-top: 250px;
+  margin-top: 50px;
+}
+
+.socials {
+  padding-top: 100px;
   margin: 0;
+}
+
+.list-socials {
+  padding: 0px;
+  height: 75px;
+  align-items: center;
+}
+
+.social-icon {
+  padding: 25px 40px 10px 40px;
+}
+
+.about-container {
+  /* display: flex; */
+  flex-direction: column;
+  background-color: #fff;
+  color: #12100f;
+}
+
+.about-container .content {
+  text-align: justify;
+}
+
+.about-container h2 {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.about-container p {
+  margin-bottom: 10px;
+}
+
+.about-container .content ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.about-container .content ul li {
+  margin: 10px 50px;
+  font-size: 120%;
 }
