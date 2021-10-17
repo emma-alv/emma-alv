@@ -48,14 +48,16 @@ nav {
 }
 
 .navbar .menu ul,
-.home-container .socials ul {
+.home-container .socials ul,
+.contact-container .socials ul {
   display: flex;
   list-style: none;
   margin: 30px auto;
 }
 
 .navbar .menu ul li,
-.home-container .socials ul li {
+.home-container .socials ul li,
+.contact-container .socials ul li {
   margin: 0;
 }
 
@@ -125,9 +127,8 @@ a:hover {
   padding: 25px 40px 10px 40px;
 }
 
-.about-container {
-  /* display: flex; */
-  flex-direction: column;
+.about-container,
+.portfolio-container {
   background-color: #fff;
   color: #12100f;
 }
@@ -181,4 +182,47 @@ a:hover {
 .skill img {
   width: 100%;
   /* height: 100%; */
+}
+
+.contact-content {
+  display: grid;
+  margin-top: 20px;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-content form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.contact-content form input {
+  width: 100%;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.contact-content form textarea {
+  width: 100%;
+  height: 140px;
+  resize: none;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.contact-content form button {
+  width: 40%;
+  height: 30px;
+  border-radius: 5px;
+  border: solid #fff 2px;
+  background-color: #12100f;
+  color: #fff;
+  font: Poppins;
+}
+
+.contact-content form button:hover {
+  background-color: #fff;
+  color: #12100f;
+  cursor: pointer;
 }
