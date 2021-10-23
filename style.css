@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
 *,
 ::before,
 ::after {
@@ -16,13 +18,28 @@ body {
   /* height: 50vh; */
 }
 
-nav {
+nav,
+.header {
   width: 100%;
   max-width: 1200px;
   /* border-bottom: 1px solid #fff; */
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
+}
+
+.header {
+  height: 80px;
+}
+
+.portfolio-header h1 {
+  flex-basis: 80%;
+  padding: 20px 80px;
+}
+
+.portfolio-header a {
+  height: 50px;
+  margin: auto 0;
 }
 
 .fixed-top {
@@ -225,4 +242,48 @@ a:hover {
   background-color: #fff;
   color: #12100f;
   cursor: pointer;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.project {
+  height: 300px;
+  width: 250px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+
+.project img {
+  height: 100%;
+  width: 100%;
+  border: 4px solid #12100f;
+  border-radius: 4px;
+}
+
+.project a {
+  padding: 0;
+}
+.project-name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s ease-in;
+  opacity: 0;
+  color: #fff;
+}
+
+.project:hover .project-name {
+  opacity: 1;
 }
