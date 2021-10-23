@@ -287,3 +287,40 @@ a:hover {
 .project:hover .project-name {
   opacity: 1;
 }
+
+@media (max-width: 800px) {
+  .skill-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .content {
+    padding: 20px;
+  }
+
+  .logo {
+    padding: 0;
+    margin: 30px auto;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .skill-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .project-name {
+    opacity: 1;
+  }
+
+  .skill {
+    width: 120px;
+  }
+}
