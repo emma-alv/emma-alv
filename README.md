@@ -23,4 +23,14 @@
 <img src="https://img.shields.io/badge/-EKS-FF9900?&style=flat-square&logo=amazoneks&logoColor=white" alt="EKS">
 </p>
 
+<h3 align="center"> Learning about... </h3>
+<p align="center">
+<img src="https://img.shields.io/badge/-JavaScript-F7DF1E?&style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+<img src="https://img.shields.io/badge/-CSS-1572B6?&style=flat-square&logo=css3&logoColor=white" alt="CSS">
+<img src="https://img.shields.io/badge/-HTML5-E34F26?&style=flat-square&logo=html5&logoColor=white" alt="HTML5">
+<img src="https://img.shields.io/badge/-React-61DAFB?&style=flat-square&logo=react&logoColor=black" alt="React">
+<img src="https://img.shields.io/badge/-Django-092E20?&style=flat-square&logo=django&logoColor=white" alt="Django\">
+
+</p>
+
 <h2 align="center"> Personal project </h2>
