@@ -32,5 +32,7 @@
 <img src="https://img.shields.io/badge/-Django-092E20?&style=flat-square&logo=django&logoColor=white" alt="Django\">
 
 </p>
+&nbsp;
 
-<h2 align="center"> Personal project </h2>
+---
+<h2 align="center"> Personal project; ALV-Games </h2>
