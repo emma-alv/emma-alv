@@ -4,7 +4,7 @@
 <a href="https://www.linkedin.com/in/erodrigueza/"><img src="https://img.shields.io/badge/-LinkedIn-0099ff?&style=social&logo=linkedin&logoColor=blue" alt="LinkedIn" /></a>&nbsp;
 </p>
 
-<p>I would like to describe in short my professional experience. After completing my bachelors degree and for the first five years of my professional career, I worked mainly in the Networking and IT Security field. Then I decided to switch my career to a more coding oriented jobs. Here is where I turned into a Cloud Engineer.</p>
+<p>As a passionate software developer with a diverse background in Networking, IT Security, and Cloud Engineering, I am committed to creating innovative solutions that address real-world challenges. My GitHub profile is a testament to my skills and expertise, featuring a range of projects that demonstrate my proficiency in various programming languages and technologies. With a strong commitment to collaboration and continuous learning, I am excited to be part of the vibrant community of developers around the world. Let's connect and create something amazing together!</p>
 
 &nbsp;
 <h2 align="center"> My experience </h2>
