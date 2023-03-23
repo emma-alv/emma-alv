@@ -4,7 +4,11 @@
 <a href="https://www.linkedin.com/in/erodrigueza/"><img src="https://img.shields.io/badge/-LinkedIn-0099ff?&style=social&logo=linkedin&logoColor=blue" alt="LinkedIn" /></a>&nbsp;
 </p>
 
-<p>As a passionate software developer with a diverse background in Networking, IT Security, and Cloud Engineering, I am committed to creating innovative solutions that address real-world challenges. My GitHub profile is a testament to my skills and expertise, featuring a range of projects that demonstrate my proficiency in various programming languages and technologies. With a strong commitment to collaboration and continuous learning, I am excited to be part of the vibrant community of developers around the world. Let's connect and create something amazing together!</p>
+<p>As a passionate software developer with a diverse background in Networking, IT Security, and Cloud Engineering, I am committed to creating innovative solutions that address real-world challenges. My experience working with Amazon Web Services (AWS) has allowed me to design and implement scalable and cost-effective solutions for a wide range of projects.
+
+My GitHub profile showcases a range of projects that demonstrate my proficiency in various programming languages and technologies, including Python, Java, and JavaScript, as well as popular frameworks such as Node.js and React. Whether working on cloud-based applications, security-focused projects, or networking infrastructure, I am dedicated to creating code that is efficient, maintainable, and secure.
+
+With a strong commitment to collaboration and continuous learning, I believe in the power of technology to solve the most pressing problems facing our world today. I am excited to contribute my skills and expertise to the global community of developers, and to work alongside others to create innovative solutions that make a difference. Let's connect and build something amazing together!</p>
 
 &nbsp;
 <h2 align="center"> My experience </h2>
